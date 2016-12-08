@@ -82,7 +82,7 @@ class Events
         else
           message = "Unfortunately no, the stream is offline :'("
         end
-        self.send_response(team_id, user_id, "#general", nil, message)
+        self.send_response(team_id, user_id, "#general", message)
       end
 
     end
